@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+   }
+   
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color:rgb(175, 154, 196);
+    color: #ccc8db;
+}
+.container{
+    background-color:cornflowerblue;
+    display: flex;
+    margin: 0 auto;
+}
+.left-side{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color:#16a06b;
+}
+.right-side {
+    width: 600px;
+    background-color: #16a06b;
+    display: flex;
+    flex-direction: column;
+   
+   }
+   .main {
+    display: flex;
+    flex-direction: column;
+    background-color: #56ad89;
+   }
+   
+   .logo {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    height: 68px;
+    line-height: 68px;
+    letter-spacing: 4px;
+   }
+   
+   .side-wrapper {
+    padding: 30px;
+   }
+   .side-friends {
+    padding: 30px;
+    width: 700px;
+   }
+   
+   .side-menu {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+   
+   }
+   .hi{
+     text-decoration: none;
+     color: white;
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+   }
+   
+   .link{
+       text-decoration: none;
+       font-style: italic;
+   }
+   .main-container {
+    padding: 20px;
+    overflow: auto;
+    background-color: #57939b;
+   }
+   
+   .profile {
+    position: relative;
+    min-height: 120px;
+   }
+   
+   .profile-cover {
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .profile-avatar {
+    align-items: center;
+    display: flex;
+   }
+   
+   .profile-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+   }
+   
+   .profile-name {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+   }
+   
+   .timeline {
+    display: flex;
+    padding-top: 20px;
+   }
+   .timeline-left {
+       width: 310px;
+       flex-shrink: 0;
+       padding-top: 20px;
+      }
+   .timeline-right {
+       flex-grow: 1;
+       padding-left: 20px;
+      }
+   
+   .box {
+    background-color: #084620;
+    border-radius: 4px;
+   }
+   
+   .intro {
+    padding: 20px;
+   
+   }
+   .intro-title {
+       color: white;
+       font-weight: 600;
+       font-size: 18px;
+       display: flex;
+       align-items: center;
+       margin-bottom: 20px;
+      }
+   
+   .info {
+    font-size: 15px;
+   }
+   .info-item a {
+       margin-left: 6px;
+       color: #17d6b6;
+       text-decoration: none;
+      }
+   .info-item {
+       display: flex;
+       color: #c3c5d5;
+       margin-bottom: 5px;
+      }
+   
+   .user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   }
+   .dos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+   }
+   .dos-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
+    object-fit: cover;
+    object-position: center;
+   }
+   
+   .user-img {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    object-fit: cover;
+    object-position: center;
+   }
+   
+   .status-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+   }
+   
+   .status-main {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+   }
+   .album {
+    padding-top: 20px;
+    margin-top: 20px;
+   }
+   
+   .album-content {
+    padding: 0 20px 20px;
+   }
+   
+   .album-photo {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4px;
+    margin-top: 10px;
+   }
+   
+   .album-photos {
+    display: flex;
+    margin-top: 20px;
+    max-height: 50vh;
+   }
+   
+   .username {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+   }
+   .info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+   }
+   .dosname {
+    font-size: 30px;
+    font-family: "DM Sans", sans-serif;
+   }
+   .doswork{
+    font-size: 20px;
+   }
+   .doswrite{
+    font-size: 25px;
+    text-decoration: none;
+    color: #17d6bc;
+   }
+   .side-title {
+       color: white;
+       font-size: 15px;
+       font-weight: 600;
+       margin-bottom: 20px;
+   }
+   
+   .dos-title {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+   .search-bar {
+    height: 60px;
+    background-color:#0c583f;
+   }
+   .search-bar input {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0 54px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+   }
+   * {
+    box-sizing: border-box;
+  }
+  
+ 
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+ 
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+ 
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
