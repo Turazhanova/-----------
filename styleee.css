@@ -93,8 +93,8 @@ body{
    .profile-img {
     width: 200px;
     height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
+   
+    object-fit:cover;
    }
    
    .profile-name {
@@ -204,7 +204,7 @@ body{
    }
    
    .album-photo {
-    width: 100%;
+    width: 30%;
     object-fit: cover;
     object-position: center;
     border-radius: 4px;
@@ -239,7 +239,7 @@ body{
    .doswrite{
     font-size: 25px;
     text-decoration: none;
-    color: #17d6bc;
+    color: #052c27;
    }
    .side-title {
        color: white;
